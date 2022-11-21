@@ -1,8 +1,10 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <RootNamespace>RBI_Library</RootNamespace>
     <TargetFramework>net6.0</TargetFramework>
+    <StartupObject>Sub Main</StartupObject>
+    <OutputType>Exe</OutputType>
   </PropertyGroup>
 
 </Project>

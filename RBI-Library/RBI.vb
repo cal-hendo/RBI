@@ -36,7 +36,10 @@ Public Class RBI
             Throw New Exception("colorID is out of range of RBI's color depth - max id: " + 2 ^ ColorDepth)
         End If
 
-
+        Dim pos As Integer() = {x, y}
+        Dim bitArray As BitArray = BinaryConverter.ToBitArray(colorID, ColorDepth)
+        Data.Remove(pos)
+        Data.Add(pos, bitArray)
     End Sub
 
     Public Sub New(ByVal width As Integer, ByVal height As Integer, ByVal colorDepth As Integer)
