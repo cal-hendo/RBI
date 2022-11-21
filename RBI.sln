@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "RBI-Library", "RBI-Library\RBI-Library.vbproj", "{88989B7C-D2E6-47F2-AC01-9C1D106FDF0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88989B7C-D2E6-47F2-AC01-9C1D106FDF0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88989B7C-D2E6-47F2-AC01-9C1D106FDF0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88989B7C-D2E6-47F2-AC01-9C1D106FDF0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88989B7C-D2E6-47F2-AC01-9C1D106FDF0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {818DD2F1-4F8B-4FD9-A0A5-3D8BB12F64C3}
+	EndGlobalSection
+EndGlobal
