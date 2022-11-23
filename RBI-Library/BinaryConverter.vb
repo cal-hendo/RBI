@@ -10,8 +10,6 @@
             index += 1
         Next
 
-        Console.WriteLine(binaryAsString)
-
         Return bitArray
     End Function
 End Class
